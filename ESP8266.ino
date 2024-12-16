@@ -65,7 +65,7 @@ void setup() {
     while (1);
   }
 
-  // Conexiones LoRa, WiFi y Adafruit
+  // Conexiones LoRa, WiFi, Adafruit y Telgram
   Serial.println("LoRa inicializado correctamente");
   connectWiFi();
   connectMQTT();
