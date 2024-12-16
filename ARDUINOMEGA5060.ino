@@ -44,11 +44,11 @@ const int umbral100 = 100;
 
 
 //Bombas de aire
-const int bombaAire1Pin = 35; // bomba de aire 1
-const int bombaAire2Pin = 37; // bomba de aire 2
+const int bombaAire1Pin = 23; // bomba de aire 1
+const int bombaAire2Pin = 25; // bomba de aire 2
 
 //Bomba peristaltica
-const int bombaPeristalticaPin = 30;                //bomba peristáltica
+const int bombaPeristalticaPin = 27;                //bomba peristáltica
 const float tiempoPorMl = 0.73;                     // Tiempo en segundos para suministrar 1 mL
 const float dosisMl = 2.6;                          // Cantidad de líquido en mL por dosis
 const unsigned long intervaloDosis = 8 * 60 * 1000; // Tiempo entre dosis en milisegundos
